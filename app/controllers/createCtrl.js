@@ -1,3 +1,5 @@
 'use strict'
 
-module.exports.show = (req, res) => res.send('<h1>Enter your personal info here</h1>')
+module.exports.show = (req, res) => {
+    res.render("createUser", {page: "Create"})
+}
