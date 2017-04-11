@@ -14,21 +14,6 @@ app.use(express.static('public'))
 app.use(routes)
 
 
-
-
-app.get('/create', (req, res, next) => {
-  res.send('<h1>Enter your personal info here</h1>')
-})
-
-app.get('/home', (req, res, next) => {
-  res.send('<h1>Home Page</h1>')
-})
-
-app.get('/liked', (req, res, next) => {
-  res.send('<h1>All the cats I like</h1>')
-})
-
-
 // listening
 const port = process.env.PORT || 3000
 app.listen(port, () => {
