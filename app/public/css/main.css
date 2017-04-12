@@ -44,6 +44,10 @@ a.center.brand-logo {
     font-family: cursive;
 }
 
+icon.right.emoji {
+    font-size: 1.7em;
+}
+
 .btn {
     background: #43A047;
 }
