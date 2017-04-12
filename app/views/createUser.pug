@@ -8,19 +8,11 @@ block content
     .register-form
         form(method="POST")
             .form-group
-                label(for='name') Name
+                label(for='username') Name
                 input.form-control#name(
                     type='text'
-                    name='name'
+                    name='username'
                     placeholder='User name'
-                )
-            .form-group
-                label(for='email') Email Address
-                input.form-control#email(
-                    type='email'
-                    name='email'
-                    placeholder='Enter@your.email'
-                    required
                 )
             .form-group
                 label(for='password') Password
