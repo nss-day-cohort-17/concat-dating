@@ -9,6 +9,17 @@ h1 {
 nav {
     background: #689F38;
 }
+
+img {
+    border-radius: 5em;
+    width: 25em;
+    height: 22em;
+    opacity: .9;
+    z-index: -1;
+    box-shadow: 0 2px 8px 2px grey;
+    line-height: 1.4;
+}
+
 .heading h1 {
     color: #8BC34A;
 }
@@ -19,4 +30,10 @@ nav {
 
 .btn:hover {
     background: #33691E;
+}
+
+.error__image {
+    opacity: 1;
+    display: block;
+    margin: 0 auto;
 }
