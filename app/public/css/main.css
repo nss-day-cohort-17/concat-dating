@@ -31,3 +31,9 @@ img {
 .btn:hover {
     background: #33691E;
 }
+
+.error__image {
+    opacity: 1;
+    display: block;
+    margin: 0 auto;
+}
