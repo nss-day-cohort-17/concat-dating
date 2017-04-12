@@ -2,66 +2,92 @@
   {
     "username": "Cuddles",
     "password": "F1shfordayz",
-    "picUrl": "https://www.petfinder.com/wp-content/uploads/2013/02/153525871-cat-agression-part-1.jpg"
+    "picUrl": "https://www.petfinder.com/wp-content/uploads/2013/02/153525871-cat-agression-part-1.jpg",
+    "likes": "Long walks, open spaces",
+    "dislikes": "Crowds"
   },
   {
     "username": "Edward",
     "password": "Pepperisfood2",
-    "picUrl": "http://littlemeows.com/wp-content/uploads/2015/10/9-Manul-Cat.jpg"
+    "picUrl": "http://littlemeows.com/wp-content/uploads/2015/10/9-Manul-Cat.jpg",
+    "likes": "Food, foodz, cheezburgar",
+    "dislikes": "no has cheezburgar"
   },
   {
     "username": "Amanda",
     "password": "Sibs4ever",
-    "picUrl": "http://littlemeows.com/wp-content/uploads/2015/10/3-Manul-Cat.jpg"
+    "picUrl": "http://littlemeows.com/wp-content/uploads/2015/10/3-Manul-Cat.jpg",
+    "likes": "My sibling, my family",
+    "dislikes": "being alone"
   },
   {
     "username": "Missy",
     "password": "2Hip4you",
-    "picUrl": "http://2.bp.blogspot.com/_rwmHhrnoXnI/TPyOG8Ok-6I/AAAAAAAAA0A/s8IXa49Latg/s1600/cat-fashion-show-5.jpg"
+    "picUrl": "http://2.bp.blogspot.com/_rwmHhrnoXnI/TPyOG8Ok-6I/AAAAAAAAA0A/s8IXa49Latg/s1600/cat-fashion-show-5.jpg",
+    "likes": "Fashion, clothing design",
+    "dislikes": "Those who do not know my greatness"
   },
   {
     "username": "Demitri",
     "password": "Fish3atyou",
-    "picUrl": "http://www.oriental-cat-breeder.co.uk/archives/images/oriental-cat-show-photos-2012/caramel-apricot-oriental-cat-photos/OBGC%20Mylynn%20Magnifique.JPG"
+    "picUrl": "http://www.oriental-cat-breeder.co.uk/archives/images/oriental-cat-show-photos-2012/caramel-apricot-oriental-cat-photos/OBGC%20Mylynn%20Magnifique.JPG",
+    "likes": "Talk is good, yes?, Have fun talking",
+    "dislikes": "Bah, what to dislike?"
   },
   {
     "username": "Timmy",
     "password": "Lifeis4you",
-    "picUrl": "http://i.dailymail.co.uk/i/pix/2016/05/23/03/3482628800000578-3603887-A_natural_The_photos_show_the_cat_flying_through_the_air_with_hi-a-48_1463970641564.jpg"
+    "picUrl": "http://i.dailymail.co.uk/i/pix/2016/05/23/03/3482628800000578-3603887-A_natural_The_photos_show_the_cat_flying_through_the_air_with_hi-a-48_1463970641564.jpg",
+    "likes": "Life, smiles, laughter",
+    "dislikes": "depressing subjects"
   },
   {
     "username": "Florance",
     "password": "Inamachine7",
-    "picUrl": "http://www.petsfoto.com/wp-content/uploads/2010/08/Cat-Fashion5.jpg"
+    "picUrl": "http://www.petsfoto.com/wp-content/uploads/2010/08/Cat-Fashion5.jpg",
+    "likes": "Preformance art, singing, those little chocolate candies with the kind of red wrapper",
+    "dislikes": "I feel that disliking something means that you just don't understand it yet, Dogs- dogs suck"
   },
   {
     "username": "Clive",
     "password": "Prideof1",
-    "picUrl": "http://2.bp.blogspot.com/--XeyArqaEIE/UFM6EFc12XI/AAAAAAAAKAQ/pVGbZ-6Dmgc/s400/Male+Lion+Wallpapers+7.jpg"
+    "picUrl": "http://2.bp.blogspot.com/--XeyArqaEIE/UFM6EFc12XI/AAAAAAAAKAQ/pVGbZ-6Dmgc/s400/Male+Lion+Wallpapers+7.jpg",
+    "likes": "Lifting, My gym fam, leg day",
+    "dislikes": "people who don't wipe the equipment down when they are done!"
   },
   {
     "username": "Matthias",
     "password": "I4mthatis",
-    "picUrl": "http://www.thosefunnypictures.com/resize.php?file=pictures/6504/Funny_Pictures_6504.jpg"
+    "picUrl": "http://www.thosefunnypictures.com/resize.php?file=pictures/6504/Funny_Pictures_6504.jpg",
+    "likes": "Reading, Brian Jacques, Adventure",
+    "dislikes": "When others tell me to 'be real', lack of imagination"
   },
   {
     "username": "Johnathan",
     "password": "Cupoftea9",
-    "picUrl": "https://pbs.twimg.com/profile_images/1740427202/fancy_cat_400x400.jpg"
+    "picUrl": "https://pbs.twimg.com/profile_images/1740427202/fancy_cat_400x400.jpg",
+    "likes": "Golly good times, Tea, a rousing game of croquet",
+    "dislikes": "Getting mud on my spats"
   },
   {
     "username": "Frank",
     "password": "B00ksb00ks",
-    "picUrl": "http://luckykitty.typepad.com/.a/6a00d8349569ef53ef00e5529a40968834-pi"
+    "picUrl": "http://luckykitty.typepad.com/.a/6a00d8349569ef53ef00e5529a40968834-pi",
+    "likes": "Silence, Reading, Organization",
+    "dislikes": "Late book returns"
   },
   {
     "username": "Stacy",
     "password": "Bloodofmyenemie5",
-    "picUrl": "http://picchore.com/wp-content/uploads/2011/02/pikachu-cat.jpg"
+    "picUrl": "http://picchore.com/wp-content/uploads/2011/02/pikachu-cat.jpg",
+    "likes": "Cosplay, Conventions, Sewing",
+    "dislikes": "Spicy foods or food that is too hot temp-wise"
   },
   {
     "username": "Alexa",
     "password": "Isgoodsite3",
-    "picUrl": "http://3.bp.blogspot.com/-9p5QhrS2k2g/TvVujRltU_I/AAAAAAAAD58/61K27HvePjs/s320/Fennec-Fox-05.jpg"
+    "picUrl": "http://3.bp.blogspot.com/-9p5QhrS2k2g/TvVujRltU_I/AAAAAAAAD58/61K27HvePjs/s320/Fennec-Fox-05.jpg",
+    "likes": "Other dogs, dry climates",
+    "dislikes": "Sand in eyes"
   }
 ]
