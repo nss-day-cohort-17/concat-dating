@@ -1,0 +1,22 @@
+body {
+    background-color: #E0E0E0;
+}
+
+h1 {
+    color: #546E7A;
+}
+
+nav {
+    background: #689F38;
+}
+.heading h1 {
+    color: #8BC34A;
+}
+
+.btn {
+    background: #43A047;
+}
+
+.btn:hover {
+    background: #33691E;
+}
