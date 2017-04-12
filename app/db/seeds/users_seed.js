@@ -3,8 +3,8 @@
 const { knex } = require("../database");
 const users = require("./users");
 
-const usersPromises = users.map( ({username, password, picUrl}) => {
-  return knex("users").insert({username, password, picUrl});
+const usersPromises = users.map( ({username, password, picUrl, likes, dislikes}) => {
+  return knex("users").insert({username, password, picUrl, likes, dislikes});
 });
 
 exports.seed = function(knex, Promise) {

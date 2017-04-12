@@ -3,6 +3,7 @@
 require('dotenv').config()
 const express = require('express')
 const app = express()
+const bodyParser = require('body-parser') // adds POST values to req.body object
 
 const routes = require('./routes/')
 
@@ -13,6 +14,7 @@ app.set('view engine', 'pug')
 
 app.set('views', './app/views')
 
+app.use(bodyParser.urlencoded({extended: false}))
 app.use(express.static(path.join(__dirname + '/public')))
 app.use(routes)
 
