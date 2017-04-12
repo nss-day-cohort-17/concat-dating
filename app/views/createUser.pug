@@ -12,7 +12,7 @@ block content
                 input.form-control#name(
                     type='text'
                     name='name'
-                    placeholder='First and Last Name'
+                    placeholder='User name'
                 )
             .form-group
                 label(for='email') Email Address
@@ -38,6 +38,30 @@ block content
                     placeholder='Re-Enter Password'
                     required
                 )
-            .contact-form__submit
+            .form-group
+                label(for='picUrl') Enter picture url for avatar
+                input.form-control#picUrl(
+                    type='url'
+                    name='picUrl'
+                    placeholder='https://www.pictureurl.com'
+                    required
+                )
+            .form-group
+                label(for='likes') List some likes
+                input.form-control#likes(
+                    type='text'
+                    name='likes'
+                    placeholder='People, Sleeping, Going outside, Going inside'
+                    required
+                )
+            .form-group
+                label(for='dislikes') List some dislikes
+                input.form-control#dislikes(
+                    type='text'
+                    name='dislikes'
+                    placeholder='People, The cold'
+                    required
+                )
+            .contact-form__submit.right
                 a.btn.btn-danger.btn-lg(href='/') Cancel
-                input.btn.btn-info.btn-lg(type='submit' value='Register')
+                input.btn.btn-info.btn-lg(type='submit' value='Register' href='/registered')
