@@ -8,6 +8,7 @@ router.use(require('./welcomeRoute'))
 router.use(require('./createRoute'))
 router.use(require('./homeRoute'))
 router.use(require('./likedRoute'))
+router.use(require('./registeredRoute'))
 
 
 

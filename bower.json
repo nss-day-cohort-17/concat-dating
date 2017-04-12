@@ -1,0 +1,19 @@
+{
+  "name": "concat-dating",
+  "description": "# Dating App",
+  "main": "index.js",
+  "license": "ISC",
+  "homepage": "https://github.com/nss-day-cohort-17/concat-dating",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/public/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "materialize": "^0.98.1",
+    "jquery": "^3.2.1"
+  }
+}

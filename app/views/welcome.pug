@@ -1,0 +1,33 @@
+extends partials/layout.pug
+
+block content
+    h1.center Welcome to ConCat
+    h3.center 🐈 + 🐈 = 😻
+    //- .background__image.right
+    //-     img(src='../images/winkykitty.jpeg')
+
+    .heading
+        h1 Login
+        if msg
+            h2= msg
+    .login-form
+        form(method="POST")
+            .form-group
+                label(for='email') Email Address
+                input.form-control#email(
+                    type='email'
+                    name='email'
+                    placeholder='Your Email'
+                    required
+                )
+            .form-group
+                label(for='password') Password
+                input.form-control#password(
+                    type='password'
+                    name='password'
+                    placeholder='Enter Password'
+                    required
+                )
+            .contact-form__submit.right
+                a.btn.btn-danger.btn-lg(href='/create') Register
+                input.btn.btn-info.btn-lg(type='submit' value='Login')
