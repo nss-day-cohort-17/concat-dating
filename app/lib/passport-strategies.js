@@ -33,7 +33,7 @@ const localStrategy = new Strategy({
     if (matches) {
       done(null, user, {msg: 'Login successful'})
     } else {
-      done(null, null, {msg: 'Password is incorrect'}0)
+      done(null, null, {msg: 'Password is incorrect'})
     }
   })
   .catch(done)

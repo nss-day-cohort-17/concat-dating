@@ -36,7 +36,7 @@ app.use(passport.initialize())
 app.use(passport.session())//this line in particular is what lets our user persist
 
 app.use( (req, res, next) => {
-  app.local.email = req.user && req.user.email
+  app.locals.username = req.user && req.user.username
   next()
 })
 

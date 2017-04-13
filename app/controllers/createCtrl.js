@@ -6,7 +6,7 @@ module.exports.show = (req, res) => {
   res.render('createUser', {page: 'Create'})
 }
 
-module.exports.createUser = ({body: {username, password, picUrl, likes, dislikes}}, res) => {
+module.exports.createUser = ({body: {username, password, confirmPassword, picUrl, likes, dislikes}}, res) => {
   if (password === confirmPassword) {
     User.findOneByUsername(username)//this takes the input username and compares it to the usernames in the database
     // the returned data "user" will be the same username if it exists in the database or a null value if it has yet to be made
@@ -19,8 +19,10 @@ module.exports.createUser = ({body: {username, password, picUrl, likes, dislikes
       .then( ()=> {
         res.redirect('/home')
       })
-      .catch( (err)=> res.render('createUser', {msg: 'Sorry, there was a problem with saving theis user. Please try again'}))
+      //the following is a catch for the save
+      .catch( (err)=> res.render('createUser', {msg: 'Sorry, there was a problem with saving this user. Please try again'}))
     })
+    //the following is a catch for the findOneByUsername
     .catch( (err)=> res.render('createUser', {msg: 'Sorry, we could tell if this username had been taken or not.  Please try again'}))
   } else {
     res.render('createUser', {msg: "password and password confirmation don't match, try again"})
