@@ -1,15 +1,16 @@
 extends partials/layout.pug
 
 block content
-    .row
-      .col.s12.m7
+  .row
+    each user in users
+      div(class='col s12 m4')
         .card
           .card-image
-            img(src='images/sample-1.jpg')
+            img(src=user.picUrl)
             |
-            span.card-title Card Title
+            span.card-title #{user.username}
           .card-content
-            p
-              | I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.
+            p Likes:  #{user.likes}.
+            p Dislikes:  #{user.dislikes}.
           .card-action
-            a(href='#') This is a link
+            a(href='#') 'Like' this cat
