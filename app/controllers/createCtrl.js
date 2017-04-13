@@ -13,5 +13,5 @@ module.exports.createUser = ({body: {username, password, picUrl, likes, dislikes
       console.log("newUser:", newUser)
     })
     .catch((err) => console.log(`Couldn't save new user`, err))
-    .then( () => res.redirect('/home'))
+    .then( () => res.redirect('/registered'))
 }
