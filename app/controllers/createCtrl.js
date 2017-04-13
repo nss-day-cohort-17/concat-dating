@@ -17,7 +17,7 @@ module.exports.createUser = ({body: {username, password, confirmPassword, picUrl
       return User.forge({username, password, picUrl, likes, dislikes})
       .save()
       .then( ()=> {
-        res.redirect('/home')
+        res.redirect('/registered')
       })
       //the following is a catch for the save
       .catch( (err)=> res.render('createUser', {msg: 'Sorry, there was a problem with saving this user. Please try again'}))
