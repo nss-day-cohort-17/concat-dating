@@ -8,8 +8,16 @@ h1.center.welcome {
     padding-top: 1em;
 }
 
+h1.centered.registered {
+    color: #B0BEC5;
+}
+
 h1.login {
     padding-top: 1em;
+}
+
+h1.center {
+    color: #B0BEC5;
 }
 
 div.displaycat {
@@ -37,6 +45,7 @@ img {
 
 a.center.brand-logo {
     font-family: cursive;
+    color: #E0E0E0;
 }
 
 .heading h1 {
