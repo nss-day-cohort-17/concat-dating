@@ -12,7 +12,8 @@ module.exports.createUser = ({body: {username, password, picUrl, likes, dislikes
     // the returned data "user" will be the same username if it exists in the database or a null value if it has yet to be made
     .then( (user) => { //if the username already exists the following "if" statement will fire and stop a duplicate from being made
       if (user) return res.render('createUser', {msg: 'Username already used, please try another one'})
-      //if the username has not been used yet
+      //if the username has not been used yet the form information will be passed into this next line
+      // in order to make a new user
       return User.forge({username, password, picUrl, likes, dislikes})
       .save()
       .then( ()=> {
