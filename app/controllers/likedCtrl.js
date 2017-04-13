@@ -1,3 +1,7 @@
 'use strict'
 
-module.exports.show = (req, res) => res.send('<h1>All the cats I like</h1>')
+const Liked = require('../models/likedModel')
+
+module.exports.show = (req, res) => {
+    res.render('liked', {page: 'Liked'})
+}

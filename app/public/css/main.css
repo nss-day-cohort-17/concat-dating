@@ -1,9 +1,32 @@
 body {
+    font-family: Geneva, Tahoma, Verdana, sans-serif;
     background-color: #E0E0E0;
 }
 
-h1 {
-    color: #546E7A;
+h1.center.welcome {
+    color: #B0BEC5;
+    padding-top: 1em;
+}
+
+h1.centered.registered {
+    color: #B0BEC5;
+}
+
+h1.login {
+    padding-top: 1em;
+}
+
+h1.center {
+    color: #B0BEC5;
+}
+
+div.displaycat {
+    background: url("https://media1.popsugar-assets.com/files/thumbor/kzUkEhaYWmLfnU6Pi79Eij54B2Y/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2014/08/08/840/n/1922507/451ce76f4a688e7b_rs_500x281-140808102730-cutest-cat-gifs-please/i/Whatheckyoudoing.gif") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
 }
 
 nav {
@@ -20,8 +43,18 @@ img {
     line-height: 1.4;
 }
 
+a.center.brand-logo {
+    font-family: cursive;
+    color: #E0E0E0;
+}
+
 .heading h1 {
     color: #8BC34A;
+    font-family: cursive;
+}
+
+icon.right.emoji {
+    font-size: 1.7em;
 }
 
 .btn {
