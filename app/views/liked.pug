@@ -1,15 +1,10 @@
 extends partials/layout.pug
 
 block content
-    .row
-      .col.s12.m7
-        .card
-          .card-image
-            img(src="")
-            |
-            span.card-title Card Title
-          .card-content
-            p
-              | I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.
-          .card-action
-            a(href='#') This is a link
+  .row
+    each like in likesArray
+      div(class='col s12 m3')
+        .liked-card
+          img.circle.liked-image(src=like.picUrl)
+          .liked-name
+            span.card-title #{like.username}

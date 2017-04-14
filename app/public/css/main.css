@@ -96,3 +96,12 @@ icon.right.emoji {
     display: block;
     margin: 0 auto;
 }
+
+/*________liked page styling________*/
+.liked-card {
+    margin: 10%;
+}
+.liked-image {
+    max-height: 200px;
+    max-width: 200px;
+}
