@@ -29,7 +29,7 @@ const localStrategy = new Strategy({
     }
     done(null, null, {msg: 'Username does not exist in system'})
   })
-  .then( ([user, matcher]) => {
+  .then( ([user, matches]) => {
     if (matches) {
       done(null, user, {msg: 'Login successful'})
     } else {

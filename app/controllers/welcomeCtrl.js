@@ -12,11 +12,18 @@ module.exports.create = (req, res, next) =>
 
     req.login(user, (err) => {
       if (err) return next(err)
-      res.redirect('/')
+      req.session.save( ()=> {
+        res.redirect('/home')
+      })
+      console.log("current user: logged in")
     })
   })(req, res, next)
 
-  module.exports.destroy =(req, res) => {
-    req.logout()
-    res.redirect('/')
-  }
+module.exports.edit = (req, res) => res.render('welcome', {page: 'Welcome'})
+
+module.exports.destroy =(req, res) => {
+  console.log("current user: THERE IS NONE!!!!")
+  req.logout()
+  res.redirect('/')
+
+}
