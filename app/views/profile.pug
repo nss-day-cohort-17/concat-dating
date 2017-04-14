@@ -1,4 +1,7 @@
 extends partials/layout.pug
 
 block content
-  h1 profile page for specific user #{selectedUser[0].username} user number: #{selectedUser[0].id}
+  h1 Hi my name is #{selectedUser[0].username}
+  img(src=selectedUser[0].picUrl)
+  h3 I like #{selectedUser[0].likes}
+  h3 I dislike #{selectedUser[0].dislikes}
