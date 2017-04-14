@@ -10,5 +10,6 @@
                 li
                     a(href="/liked") Liked
                 li
-                    a(href="/") Logout
+                    form(method='POST')
+                      button(formaction="/logout") Logout
             icon.right.emoji 🐈 + 🐈 = 😻
