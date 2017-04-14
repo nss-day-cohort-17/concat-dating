@@ -4,9 +4,7 @@ block content
   .row
     each like in likesArray
       div(class='col s12 m3')
-        .card
-          .card-image
-            img(src=like.picUrl)
-            |
+        .liked-card
+          img.circle.liked-image(src=like.picUrl)
+          .liked-name
             span.card-title #{like.username}
-          .card-content
