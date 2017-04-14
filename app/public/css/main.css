@@ -80,6 +80,25 @@ icon.right.emoji {
     height: 40em;
 }
 
+.btn.btn-lg.logout {
+    background-color: #689F38;
+    width: 8em;
+    /*height: 4.2em;*/
+    /*padding-top: 1em;*/
+    /*text-align: center;*/
+    border-radius: 1em;
+    /*box-shadow: 1px white;*/
+    margin-top: 1em;
+}
+
+.btn.btn-lg.logout:hover {
+    background-color: orange;
+}
+
+button:hover {
+    background-color: #33691E;
+}
+
 /*gives button hover effects*/
 .btn {
     background: #43A047;
