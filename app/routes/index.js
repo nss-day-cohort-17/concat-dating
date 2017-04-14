@@ -15,9 +15,9 @@ router.use( (req, res, next) => { // this is the gate that stops unregistered/lo
   }
 })
 
+router.use(require('./registeredRoute'))
 router.use(require('./homeRoute'))
 router.use(require('./likedRoute'))
-router.use(require('./registeredRoute'))
 router.use(require('./logoutRoute'))
 
 
