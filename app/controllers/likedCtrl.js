@@ -14,7 +14,7 @@ module.exports.show = (req, res) => {
       return likesArray
     })
     .then((likesArray) => {
-      console.log("just the filtered likes:", likesArray)
+      // console.log("just the filtered likes:", likesArray)
       res.render('liked', {page: 'Liked', likesArray}) // render likes page and pass in the array of liked users
     })
     .catch((err) => console.log("Could not generate likes:", err))
