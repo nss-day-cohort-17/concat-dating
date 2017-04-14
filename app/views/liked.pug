@@ -7,4 +7,5 @@ block content
         .liked-card
           img.circle.liked-image(src=like.picUrl)
           .liked-name
-            span.card-title #{like.username}
+            a(href=`/profile/${like.username}`)
+              span.card-title #{like.username}
