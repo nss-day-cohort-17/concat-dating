@@ -1,10 +1,14 @@
 'use strict'
 
 const { Router } = require('express')
+
+const { show, create } = require('../controllers/welcomeCtrl.js')
+
 const router = Router()
 
-const { show } = require('../controllers/welcomeCtrl.js')
-
 router.get('/', show)
+// router.get('/', edit)
+router.post('/', create)
+// router.post('/', destroy)
 
 module.exports = router
